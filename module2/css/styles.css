@@ -2,6 +2,7 @@
 * {
   box-sizing: border-box;
 }
+
 body {
   font-family: Helvetica;
   font-size: 16px;
@@ -12,28 +13,8 @@ h1 {
   text-align: center;
   font-size: 175%;
 }
-/*
-h2 {
-  text-align: center;
-  padding:0px;
-  font-size: 18px;
-  height: 22px;
-  font-family: Helvetica;
-  color: white;
-}
 
-p {
-  border: 1px solid black;
-  background-color: #A52A2A;
-  width: 90%;
-  height: 150px;
-  margin-right: auto;
-  margin-left: auto;
-  font-family: Helvetica;
-  color: white;
-}
-*/
-.container {
+.section {
   padding:10px;
 }
 
@@ -164,7 +145,7 @@ p {
   }
 }
 
-/********** Mobile View **********/
+/********** Mobile View *********/
 @media (max-width: 767px) {
   .col-sm-1, .col-sm-2, .col-sm-3, .col-sm-4, .col-sm-5, .col-sm-6, .col-sm-7, .col-sm-8, .col-sm-9, .col-sm-10, .col-sm-11, .col-sm-12 {
     float: left;
